@@ -36,15 +36,20 @@ const Appbar = ({ page }) => {
                     <Container maxWidth='xl'>
                         <Toolbar disableGutters>
                             <Box
-                                component='img'
-                                sx={{
-                                    mr: 2,
-                                    display: { xs: "none", md: "flex" },
-                                    width: 50,
-                                }}
-                                src={rakmans}
-                                alt='logo'
-                            />
+                                component='a'
+                                target='_blank'
+                                href='https://rakmans.github.io/'>
+                                <Box
+                                    component='img'
+                                    sx={{
+                                        mr: 2,
+                                        display: { xs: "none", md: "flex" },
+                                        width: 50,
+                                    }}
+                                    src={rakmans}
+                                    alt='logo'
+                                />
+                            </Box>
                             <Box
                                 sx={{
                                     flexGrow: { xs: 1, sm: 0 },
